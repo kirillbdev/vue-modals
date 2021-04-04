@@ -1,0 +1,34 @@
+{
+  "name": "idea2-platform",
+  "version": "1.0.0",
+  "description": "Idea Project",
+  "main": "index.js",
+  "scripts": {
+    "webpack-build": "webpack --watch",
+    "webpack": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com-kirillbdev:kirillbdev/idea-cms.git"
+  },
+  "keywords": [
+    "idea",
+    "cms",
+    "laravel"
+  ],
+  "author": "kirillbdev",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "path": "^0.12.7",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
