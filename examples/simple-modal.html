@@ -15,7 +15,9 @@
   <script>
     window.VueModals.init('#modals');
 
-    function openModal() {
+    function openModal(event) {
+      event.stopImmediatePropagation();
+
       window.VueModals.open({
         type: 'simple',
         html: '<h1>Hello, world</h1>'
