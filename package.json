@@ -1,6 +1,6 @@
 {
   "name": "@kirillbdev/vue-modals",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Simple intuitive modals for Vue js.",
   "main": "src/js/index.js",
   "scripts": {
