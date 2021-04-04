@@ -1,6 +1,6 @@
 # Vue modals
 
-Simple intuitive Modals for your Vue apps
+Simple intuitive Modals for your Vue apps.
 
 ## Installation
 
@@ -10,4 +10,6 @@ Simple intuitive Modals for your Vue apps
 
 ### Direct download
 
-Download zip archive and unpack dist folder to *your-project-name/kirillbdev/vue-modals*
+Download zip archive and unpack dist folder to
+
+*your-project-name/kirillbdev/vue-modals*.
