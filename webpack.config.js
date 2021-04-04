@@ -4,7 +4,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
   entry: {
-    'vue-modals': './src/js/index.js'
+    'vue-modals': './src/js/build.js'
   },
   output: {
       filename: '[name].min.js',

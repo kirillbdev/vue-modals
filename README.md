@@ -16,14 +16,20 @@ Download zip archive and unpack dist folder to
 
 ## Initialization
 
-#### Using ES5 modules
+#### Using ES6 modules
 
-In your
+In your js
 
 ```js
 import VueModals from '@kirillbdev/vue-modals';
 
 const modals = VueModals.init('#modals-container');
+```
+
+In your scss
+
+```scss
+@import "~@kirillbdev/vue-modals/src/scss/index";
 ```
 
 #### Using direct <script> include
