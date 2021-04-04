@@ -16,7 +16,7 @@ Download zip archive and unpack dist folder to
 
 ## Initialization
 
-#### Using ES6 modules
+### Using ES6 modules
 
 In your js
 
@@ -38,7 +38,7 @@ Or if you are using gulp
 @import "node_modules/@kirillbdev/vue-modals/src/scss/index";
 ```
 
-#### Using direct <script> include
+### Using direct <script> include
 
 In head
 
