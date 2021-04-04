@@ -12,4 +12,38 @@ Simple intuitive Modals for your Vue apps.
 
 Download zip archive and unpack dist folder to
 
-*your-project-name/kirillbdev/vue-modals*.
+*your-project-name/kirillbdev/vue-modals*
+
+## Initialization
+
+#### Using ES5 modules
+
+In your
+
+```js
+import VueModals from '@kirillbdev/vue-modals';
+
+const modals = VueModals.init('#modals-container');
+```
+
+#### Using direct <script> include
+
+In head
+
+`<link rel="stylesheet" href="path-to-vue-modals.css">`
+
+In footer
+
+```html
+<script src="path-to-vue-modals.js"></script>
+
+<script>
+  // If you included vue modals globally
+  // you can access it by using window.VueModals facade.
+  window.VueModals.init('#modals-container');
+</script>
+```
+
+## Basic usage
+
+See examples folder.

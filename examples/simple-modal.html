@@ -2,15 +2,25 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Vue modal</title>
+  <title>Vue Modals by kirillbdev</title>
   <link rel="stylesheet" href="/dist/css/vue-modals.min.css">
 </head>
 <body>
-  <h1>Vue modal</h1>
+  <h1>Simple modal example</h1>
+  <button id="open-modal" onclick="openModal">Open modal</button>
+
   <div id="modals"></div>
+
   <script src="/dist/js/vue-modals.min.js"></script>
   <script>
     window.VueModals.init('#modals');
+
+    function openModal() {
+      window.VueModals.open({
+        type: 'simple',
+        html: '<h1>Hello, world</h1>'
+      });
+    }
   </script>
 </body>
 </html>

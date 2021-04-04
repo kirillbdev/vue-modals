@@ -14,16 +14,17 @@
   ],
   "author": "kirillbdev",
   "license": "GPL-3.0-or-later",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.10"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "path": "^0.12.7",
-    "vue": "^2.6.10",
-    "vue-loader": "^15.9.5",
-    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.12"
   },
