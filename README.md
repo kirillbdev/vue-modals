@@ -26,17 +26,25 @@ import VueModals from '@kirillbdev/vue-modals';
 const modals = VueModals.init('#modals-container');
 ```
 
-In your scss
+In your scss (if using webpack)
 
 ```scss
 @import "~@kirillbdev/vue-modals/src/scss/index";
+```
+
+Or if you are using gulp
+
+```scss
+@import "node_modules/@kirillbdev/vue-modals/src/scss/index";
 ```
 
 #### Using direct <script> include
 
 In head
 
-`<link rel="stylesheet" href="path-to-vue-modals.css">`
+```html
+<link rel="stylesheet" href="path-to-vue-modals.css">
+```
 
 In footer
 
