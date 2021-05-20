@@ -1,12 +1,12 @@
 import {createApp} from './create-app';
 
 const VueModals = {
-  init (el) {
+  init (el, options) {
     if (this.initialized) {
       return;
     }
 
-    this.container = createApp(el);
+    this.container = createApp(el, options || {});
     this.initialized = true;
 
     return this;

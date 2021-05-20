@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Container from './components/container.vue';
 
-export function createApp (el) {
+export function createApp (el, options) {
   return new Vue({
     el: el,
     data () {
@@ -32,7 +32,8 @@ export function createApp (el) {
     render: function (h) {
       return h(Container, {
         props: {
-          modals: this.modals
+          modals: this.modals,
+          options: options
         },
         on: {
           closeActive: this.closeActive

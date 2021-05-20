@@ -25,12 +25,13 @@
       ComponentModal
     },
     props: [
-      'modals'
+      'modals',
+      'options'
     ],
     computed: {
       classes: function () {
         return [
-          'modal-container',
+          this.options.containerClass || 'modal-container',
           {
             'active': this.modals.length
           }
